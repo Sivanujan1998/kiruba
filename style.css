@@ -1,0 +1,70 @@
+body, html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-img {
+    /* The image used */
+    background-image: url("https://scontent.fmaa8-1.fna.fbcdn.net/v/t31.0-8/18238665_1401583423213684_9092891475707277171_o.jpg?_nc_cat=101&_nc_sid=e3f864&_nc_ohc=bQFUqQl1PpMAX9S6SQk&_nc_ht=scontent.fmaa8-1.fna&oh=8d84be50da7938a9c2988a047d06aec6&oe=5F74959E");
+  
+    min-height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  /* Add styles to the form container */
+  .container {
+    position: absolute;
+    right: 0;
+    top: 11%;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: transparent;
+    overflow: auto;
+  }
+  
+  /* Full-width input fields */
+  input[type=text] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  h1 {
+      color:lightskyblue ;
+    text-shadow: 4px 10px 5px rgb(48, 1, 1);
+    font-size: 34px;
+  
+  }
+ 
+  
